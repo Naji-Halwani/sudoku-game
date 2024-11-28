@@ -185,19 +185,7 @@ const App: React.FC = () => {
           ))
         )}
       </div>
-      {/* <div className="buttons">
-        <button onClick={() => generateSudoku("easy")}>Generate Easy</button>
-        <button onClick={() => generateSudoku("medium")}>
-          Generate Medium
-        </button>
-        <button onClick={() => generateSudoku("hard")}>Generate Hard</button>
-        <button onClick={handleSolve}>Solve</button>
-        <button onClick={giveHint} disabled={hints === 0}>
-          Get Hint ({hints})
-        </button>
-      </div> */}
       <div className="controls">
-        {/* Difficulty Dropdown */}
         <select
           value={difficulty}
           onChange={(e) => {
