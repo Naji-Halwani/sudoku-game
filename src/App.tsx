@@ -198,7 +198,6 @@ const App: React.FC = () => {
           <option value="medium">Medium</option>
           <option value="hard">Hard</option>
         </select>
-        {/* Solve and Hint Buttons */}
         <button onClick={handleSolve}>Solve</button>
         <button onClick={giveHint} disabled={hints === 0}>
           Get Hint ({hints})
